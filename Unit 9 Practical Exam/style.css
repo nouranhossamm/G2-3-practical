@@ -170,22 +170,39 @@ footer {
     color: #6b7280;
 }
  
-/* @media screen and (max-width: 768){
-    div{
-        background-color: yellow;
+@media screen and (max-width: 768px) {
+    .logo, 
+    .nav-links {
+        float: none;
+        width: 100%;
+        text-align: center;
     }
 
-    header{
+    .nav-links {
+        margin-top: 10px;
+    }
+
+    .hero-text, 
+    .hero-image {
+        float: none;
+        width: 100%;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .hero-text {
+        margin-bottom: 30px;
+    }
+
+    .hero-image img {
         width: 100%;
     }
 
-    img{
+    .card {
+        float: none;
         width: 100%;
+        margin: 0 0 20px 0;
     }
-    .card{
-        width: 100%;
-    }
-
-
+}
     
 } */
