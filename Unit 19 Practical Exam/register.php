@@ -64,8 +64,11 @@ array_push($students, [
     'age' => $age
 ]);
 
-echo "<pre>";
-print_r($students);
-echo "</pre>";
+foreach ($students as $student) {
+    echo "Name: " . $student['name'] . "<br>";
+    echo "Email: " . $student['email'] . "<br>";
+    echo "Age: " . $student['age'] . "<br>";
+    echo "<hr>";
+}
 
 ?>
